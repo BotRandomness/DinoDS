@@ -1,0 +1,10 @@
+#Dino PC
+
+Dino/main.exe
+
+#Dino NDS
+
+DinoDS/build
+DinoDS/DinoDS.elf
+DinoDS/DinoDS.nds
+
