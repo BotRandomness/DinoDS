@@ -61,7 +61,7 @@ There is many ways to about this, also having to take in consideration if your g
     </tr>
     <tr>
         <td><a href="https://github.com/BotRandomness/DinoDS"><img src="git-res/DS_Splash.gif" alt="DS_Splash" width="600%" height="450%"></a></td>
-        <td><a href="https://github.com/BotRandomness/DinoDS"><img src="git-res/PC_Splash.png" alt="PC_Splash" width="600%" height="450%"></a></td>
+        <td><a href="https://github.com/BotRandomness/DinoDS"><img src="git-res/PC_Splash.gif" alt="PC_Splash" width="600%" height="450%"></a></td>
     </tr>
   <tr>
         <td><a href="https://github.com/BotRandomness/DinoDS"><img src="git-res/DS_Menu.gif" alt="DS_Menu" width="600%" height="945%"></a></td>
