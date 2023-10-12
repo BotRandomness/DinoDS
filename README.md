@@ -60,7 +60,7 @@ There is many ways to about this, also having to take in consideration if your g
         <th>PC</th>
     </tr>
     <tr>
-        <td><a href="https://github.com/BotRandomness/DinoDS"><img src="git-res/DS_Splash.png" alt="DS_Splash" width="600%" height="945%"></a></td>
+        <td><a href="https://github.com/BotRandomness/DinoDS"><img src="git-res/DS_Splash.png" alt="DS_Splash" width="80%" height="100%"></a></td>
         <td><a href="https://github.com/BotRandomness/DinoDS"><img src="git-res/PC_Splash.png" alt="PC_Splash" width="600%" height="450%"></a></td>
     </tr>
   <tr>
