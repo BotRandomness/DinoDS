@@ -25,12 +25,12 @@
 <!-- ABOUT THE PROJECT -->
 
 ## Getting Started
-As may have notice, along NDS version, there is a Windows version, as I actually made the game targeting PC first with Raylib, then I was able to port it to NDS using DevKitPro, libnds, and NightFox's Lib. I'll go over both for getting started.
+As you may have notice, along with the NDS version, there is a Windows version, as I actually made the game targeting PC first with Raylib, then I was able to port it to NDS using DevKitPro, libnds, and NightFox's Lib. I'll go over both for getting started and compiling.
 
 ### Download
 
 #### NDS (Works on all NDS and 3DS models, also Emulators)
-There is many ways to about this, also having to take in consideration if your going to play on real hardware or a emulator. I will just mention the possible ways to go about this.
+There is many ways to go about this, also having to take in consideration if your going to play on real hardware or on a emulator. I will just mention the possible ways to go about this.
 
 1. Download the .nds ROM file [here](https://github.com/BotRandomness/DinoDS/releases) or from the releases.
 - For real hardware, simple place the .nds ROM on to your flashcart. This should work all NDS and 3DS models as longer the flashcart is setup properly beforehand.
@@ -104,7 +104,7 @@ The NDS version uses a open-source toolchain known as DevKitPro. DevKitPro comes
 3. Run `make` in the terminal, and `DinoDS.nds` will be made!
 
 #### PC
-The PC version uses raylib. RayLib provides a simple way to use graphics with minimal overhead with the focus on portability and is also very modular, having the core library in a single header file. Raylib is made with C but can also be used with C++. Due to raylib being design in C, it has many binding for languages such as Java, C#, python, and much more. In our case, were using the standard C raylib.
+The PC version uses raylib. RayLib provides a simple way to use graphics with minimal overhead with the focus on portability and is also very modular, having the core library in a single header file. Raylib is made with C but can also be used with C++. Due to raylib being made in C, it has many binding for languages such as Java, C#, python, and much more. In our case, were using the standard C raylib.
 
 1. Download raylib: https://www.raylib.com/
 2. Once raylib is install to your system, depending what IDE/text editor your using, raylib provides templates and excute files for these setup to compile the game.
@@ -112,13 +112,13 @@ The PC version uses raylib. RayLib provides a simple way to use graphics with mi
    - For example using Windows, raylib already comes with NotePad++ pre-configured, just open the `main.c` in NotePad++ and press [F6], then "Ok", and it will compile!
 
 ### Program Architechture
-The first question you may be asking is if I wanted to make a NDS homebrew, why did you make a PC version? To that I say just a good base to work off of. Since I used standard C along with raylib, which as said before has very low over head, it made it seems start with a base before moving onto the NDS version. Also it was just really fun to make 2 version of the same game of differnent platform. Being able to "port" was just fun to do! :)
+The first question you may be asking is if I wanted to make a NDS homebrew, why did you make a PC version? To that I say just a good base to work off of. Since I used standard C along with raylib, which as said before has very low over head, it made it seem like a good start to make a base before moving onto the NDS version. Also it was just really fun to make 2 version of the same game on differnent platforms. Being able to "port" was just fun to do! :)
 
 One thing to note is since the PC version was made first, both PC version and NDS version do look slightly different and may not match to this genaral outline I am going to go over. I did write the NDS version of the code by using PC version as a base, so you can see where I comment out the raylib functions with libnds and NightFox's Lib functions.
 
-Typically in game development, use classes, to represent objects. Objects can be the players to coins, to even the level itself. However with C, we don't way to make classes like say in C++. However, this does not stop us to still create structure for a game. Dino is fairly a simple game. With that, this is how the basic program is layed out! </br>
+Typically in game development, classes are used, to represent objects. Objects can be the player to coins, to even the level itself. However with C, we don't have a way to make classes like say in C++. However, this does not stop us to still create structure for a game. Dino is fairly a simple game. With that, this is how the basic program is layed out! </br>
 
-Both the for the NDS and PC versions, they contain a single `main.c` that contains the entire game. Again to mention, since Dino is a simple endless runnner, the game code essentially revolves around the player, in our case, Dino the T-Rex. In the main functions contains variables for all attributes for the player, catuses, clouds, ground, etc. These attributes includes like the players x and y positions: `posX` and `posY`, `gravity`, catus x and y positions, etc. In the NDS version of the code, this is where we load the graphics and pallets into RAM and VRAM, along with defining the sprites and backgrounds. 
+Both for the NDS and PC versions, they contain a single `main.c` that contains the entire game. Again to mention, since Dino is a simple endless runnner, the game code essentially revolves around the player, in our case, Dino the T-Rex. In the main functions contains variables for all attributes for the player, catuses, clouds, ground, etc. These attributes includes like the players x and y positions: `posX` and `posY`, `gravity`, catus x and y positions, etc. In the NDS version of the code, this is where we load the graphics and pallets into RAM and VRAM, along with defining the sprites and backgrounds. 
 
 Outside the main function, I have declear a few functions relating to obstacle genration, cloud genration, ground genration, and collision detection. These functions get passed in revelent varibles I defined in the main function. Back in the main function, after all the varible defining, there a while loop, which is the "main game loop". The main game loop run once per frame. The game loop itself is then split into 2, a `Update` part, and a `Draw` part. The Update part is where we can update the variables, think about the stuff we can't see. While the Draw part is all where all relavent rendering code goes. Overall in the main function is where I handle all the player code, with the other functions mention before being call and used that is revelent to the player code.
 
