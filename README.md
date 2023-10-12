@@ -54,6 +54,7 @@ There is many ways to about this, also having to take in consideration if your g
 - The catus genaration is not perfect, so sometimes you can have a row of catus that seems impossible to jump over, but worry not! I created "forgiveness hitbox" where only catus that hit you head on or directly below will cause a gameover. If it hit's your tail, you should be good. Take advantage of that, also the reapeat jump ;)
 
 ## Screenshots
+<a href="https://github.com/BotRandomness/DinoDS"><img src="git-res/DS_Splash.png" alt="DS_Splash" width="50%" height="50%"></a>
 <table>
     <tr>
         <th>NDS</th>
