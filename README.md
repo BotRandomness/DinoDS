@@ -60,20 +60,20 @@ There is many ways to about this, also having to take in consideration if your g
         <th>PC</th>
     </tr>
     <tr>
-        <td width="25%"><a href="https://github.com/BotRandomness/DinoDS"><img src="git-res/DS_Splash.png" alt="DS_Splash" width="50%" height="50%"></a></td>
-        <td width="25%"> <a href="https://github.com/BotRandomness/DinoDS"><img src="git-res/PC_Splash.png" alt="PC_Splash" width="600%" height="450%"></a></td>
+        <td><a href="https://github.com/BotRandomness/DinoDS"><img src="git-res/DS_Splash.gif" alt="DS_Splash" width="600%" height="450%"></a></td>
+        <td><a href="https://github.com/BotRandomness/DinoDS"><img src="git-res/PC_Splash.png" alt="PC_Splash" width="600%" height="450%"></a></td>
     </tr>
   <tr>
-        <td><a href="https://github.com/BotRandomness/DinoDS"><img src="git-res/DS_Menu.png" alt="DS_Menu" width="600%" height="945%"></a></td>
-        <td><a href="https://github.com/BotRandomness/DinoDS"><img src="git-res/PC_Menu.png" alt="PC_Menu" width="600%" height="450%"></a></td>
+        <td><a href="https://github.com/BotRandomness/DinoDS"><img src="git-res/DS_Menu.gif" alt="DS_Menu" width="600%" height="945%"></a></td>
+        <td><a href="https://github.com/BotRandomness/DinoDS"><img src="git-res/PC_Menu.gif" alt="PC_Menu" width="600%" height="450%"></a></td>
     </tr>
   <tr>
-        <td><a href="https://github.com/BotRandomness/DinoDS"><img src="git-res/DS_Game.PNG" alt="DS_Game" width="600%" height="945%"></a></td>
-        <td><a href="https://github.com/BotRandomness/DinoDS"><img src="git-res/PC_Game.png" alt="PC_Game" width="600%" height="450%"></a></td>
+        <td><a href="https://github.com/BotRandomness/DinoDS"><img src="git-res/DS_Game.gif" alt="DS_Game" width="600%" height="945%"></a></td>
+        <td><a href="https://github.com/BotRandomness/DinoDS"><img src="git-res/PC_Game.gif" alt="PC_Game" width="600%" height="450%"></a></td>
     </tr>
   <tr>
-        <td><a href="https://github.com/BotRandomness/DinoDS"><img src="git-res/DS_Game2.png" alt="DS_Game2" width="600%" height="945%"></a></td>
-        <td><a href="https://github.com/BotRandomness/DinoDS"><img src="git-res/PC_Game2.png" alt="PC_Game2" width="600%" height="450%"></a></td>
+        <td><a href="https://github.com/BotRandomness/DinoDS"><img src="git-res/DS_Game2.gif" alt="DS_Game2" width="600%" height="945%"></a></td>
+        <td><a href="https://github.com/BotRandomness/DinoDS"><img src="git-res/PC_Game2.gif" alt="PC_Game2" width="600%" height="450%"></a></td>
     </tr>
   <tr>
         <td><a href="https://github.com/BotRandomness/DinoDS"><img src="git-res/DS_Gif.gif" alt="DS_Gif" width="600%" height="945%"></a></td>
@@ -87,8 +87,8 @@ There is many ways to about this, also having to take in consideration if your g
         <th>DSi</th>
     </tr>
     <tr>
-        <td><a href="https://github.com/BotRandomness/DinoDS"><img src="git-res/DSLiteOg_Menu.png" alt="DS" width="600%" height="945%"></a></td>
-        <td><a href="https://github.com/BotRandomness/DinoDS"><img src="git-res/DSi_Menu.png" alt="DSi" width="600%" height="945%"></a></td>
+        <td><a href="https://github.com/BotRandomness/DinoDS"><img src="git-res/DSLiteOg_Menu.gif" alt="DS" width="600%" height="945%"></a></td>
+        <td><a href="https://github.com/BotRandomness/DinoDS"><img src="git-res/DSi_Menu.gif" alt="DSi" width="600%" height="945%"></a></td>
     </tr>
 </table>
 
