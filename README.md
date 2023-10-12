@@ -32,14 +32,14 @@ As may have notice, along NDS version, there is a Windows version, as I actually
 #### NDS (Works on all NDS and 3DS models, also Emulators)
 There is many ways to about this, also having to take in consideration if your going to play on real hardware or a emulator. I will just mention the possible ways to go about this.
 
-1. Download the .nds ROM file [here](https://github.com/BotRandomness/DinoDS) or from the releases.
+1. Download the .nds ROM file [here](https://github.com/BotRandomness/DinoDS/releases) or from the releases.
 - For real hardware, simple place the .nds ROM on to your flashcart. This should work all NDS and 3DS models as longer the flashcart is setup properly beforehand.
   - You can also use Twighlight Menu on the DSi and the 3DS models. Do note this options require a homebrewed DSi and 3DS.  
 - For emulators, pretty much any NDS emulators should work including MelonDS, Desmume, Drastic, etc. Make sure the DLDI option is checked if not by default.
   - Example: In MelonDS, go to Config --> Emu Settings --> DLDI --> then check the box "Enable DLDI(for homebrew)"
 
 #### PC (Windows)
-1. Download the Zip file [here](https://github.com/BotRandomness/DinoDS) or from the releases tab under PC Windows.
+1. Download the Zip file [here](https://github.com/BotRandomness/DinoDS/releases) or from the releases tab under PC Windows.
 2. Extract the zip file at your desire location
 3. Open the `Dino.exe`, the game is just a single file, no installation, it just opens up ready to be played.
 
