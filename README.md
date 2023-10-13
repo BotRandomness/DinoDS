@@ -118,9 +118,9 @@ One thing to note is since the PC version was made first, both PC version and ND
 
 Typically in game development, classes are used, to represent objects. Objects can be the player to coins, to even the level itself. However with C, we don't have a way to make classes like say in C++. However, this does not stop us to still create structure for a game. Dino is fairly a simple game. With that, this is how the basic program is layed out! </br>
 
-Both for the NDS and PC versions, they contain a single `main.c` that contains the entire game. Again to mention, since Dino is a simple endless runnner, the game code essentially revolves around the player, in our case, Dino the T-Rex. In the main functions contains variables for all attributes for the player, catuses, clouds, ground, etc. These attributes includes like the players x and y positions: `posX` and `posY`, `gravity`, catus x and y positions, etc. In the NDS version of the code, this is where we load the graphics and pallets into RAM and VRAM, along with defining the sprites and backgrounds. 
+Both for the NDS and PC versions, they contain a single `main.c` that contains the entire game. Since Dino is a simple endless runnner, the game code essentially revolves around the player, in our case, Dino the T-Rex. In the main functions contains variables for all attributes for the player, catuses, clouds, ground, etc. These attributes includes like the players x and y positions: `posX` and `posY`, `gravity`, catus x and y positions, etc. In the NDS version of the code, this is where we load the graphics and pallets into RAM and VRAM, along with defining the sprites and backgrounds. 
 
-Outside the main function, I have declear a few functions relating to obstacle genration, cloud genration, ground genration, and collision detection. These functions get passed in revelent varibles I defined in the main function. Back in the main function, after all the varible defining, there a while loop, which is the "main game loop". The main game loop run once per frame. The game loop itself is then split into 2, a `Update` part, and a `Draw` part. The Update part is where we can update the variables, think about the stuff we can't see. While the Draw part is all where all relavent rendering code goes. Overall in the main function is where I handle all the player code, with the other functions mention before being call and used that is revelent to the player code.
+Outside the main function, I have declared a few functions relating to obstacle genration, cloud genration, ground genration, and collision detection. These functions get passed in revelent varibles I defined in the main function. Back in the main function, after all the varible defining, there a while loop, which is the "main game loop". The main game loop run once per frame. The game loop itself is then split into 2, a `Update` part, and a `Draw` part. The Update part is where we can update the variables, think about the stuff we can't see. While the Draw part is all where all relavent rendering code goes. Overall in the main function is where I handle all the player code, with the other functions mention before being call and used that is revelent to the player code.
 
 If you are interested in the NDS and or making NDS homebrew, these are good reads:
 - Rodrigo Copetti's Nintendo DS Architechture Analysis: https://www.copetti.org/writings/consoles/nintendo-ds/
@@ -133,7 +133,9 @@ Looking over the code, the program is quite simple, don't worry!
 
 - [ ] 2 Player Co-Op
   - Top Screen for Player 1, and Bottom Screen for Player 2
-- [ ] Saving. Save high score for both NDS and PC version.  
+- [ ] Saving. Save high score for both NDS and PC version.
+- [ ] Add sound effects to the NDS Version
+- [ ] Add UI text in the NDS Version  
 - Post any feature request in the Issues tab!
 
 ## Known issues
